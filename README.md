@@ -1,5 +1,7 @@
 # Nova Rating field
 
+Forked from another repo where author didnt want to updgrade for fix to php8.
+
 A **Star rating field** to use in your Laravel Nova apps. 
 
 Uses [vue-star-rating](https://github.com/craigh411/vue-star-rating). 
