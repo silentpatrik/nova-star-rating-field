@@ -1,0 +1,44 @@
+{
+    "name": "silentpatrik/nova-star-rating-field",
+    "description": "Updated version of nova rating field",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "rating"
+    ],
+    "homepage": "https://github.com/silentpatrik/nova-star-rating-field",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrik Grinsvall",
+            "email": "patrik@silentridge.io",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Silentpatrik\\Rating\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Silentpatrik\\Rating\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Silentpatrik\\Rating\\RatingServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
