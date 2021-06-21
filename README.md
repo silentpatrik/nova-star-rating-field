@@ -4,19 +4,6 @@ Forked from another repo where author didnt want to updgrade for fix to php8.
 
 A **Star rating field** to use in your Laravel Nova apps. 
 
-Uses [vue-star-rating](https://github.com/craigh411/vue-star-rating). 
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/nikaia/nova-rating-field.svg?style=flat-square)](https://packagist.org/packages/nikaia/nova-rating-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/nikaia/nova-rating-field.svg?style=flat-square)](https://packagist.org/packages/nikaia/nova-rating-field)
-
-
-<p align="center">
-    <img src="./docs/players-index.png"/>
-    <br/>
-    <img src="./docs/players-edit.png" />
-</p>
-
-
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
